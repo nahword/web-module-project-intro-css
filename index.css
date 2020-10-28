@@ -81,7 +81,7 @@ nav a{
     color:black;
     display:inline-block;
     width:25%;
-    padding:0;
+    padding:auto 0;
     margin:1%;
     border-radius: 10px;
     min-height: 100%;
@@ -124,4 +124,12 @@ footer{
 }
 span{
     font-weight: bold;
+}
+.centered{
+    margin:0, auto;
+    text-align:center;
+    align-items:center;
+}
+img.centered{
+    width:20%;
 }
