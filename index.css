@@ -84,5 +84,29 @@ nav a{
     margin:1%;
 }
 .Plan{
-    background-color:#FF764E
+    background-color:#FF764E;
+}
+.Learn{
+    background-color:#5ED3EB;
+}
+.Get{
+    background-color:#FFCD69;
+}
+header{
+    margin:0 auto;
+}
+div{
+    display:inline-block;
+}
+div.image{
+    width:20%;
+}
+div.headerText{
+    width:70%;
+}
+.circle{
+    border-radius: 50%;
+}
+.headerText p{
+    margin-top:9%;
 }
