@@ -83,6 +83,8 @@ nav a{
     width:25%;
     padding:0;
     margin:1%;
+    border-radius: 10px;
+    min-height: 100%;
 }
 .Plan{
     background-color:#FF764E;
@@ -113,4 +115,13 @@ div.headerText{
 }
 .headerText p{
     margin-top:5.5%;
+}
+.mainText{
+    background-color:#DDB9A3;
+}
+footer{
+    background-color: #F9E7DC;
+}
+span{
+    font-weight: bold;
 }
