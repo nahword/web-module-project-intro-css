@@ -1,0 +1,151 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+    outline: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    /* border: 0; */
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define visible focus styles! 
+:focus {
+	outline: ?????;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*New code below*/
+
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    border:1px solid black;
+}
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:2rem;
+    font-family:'Roboto Mono', monospace;
+}
+nav{
+    width:100%;
+    margin:0 auto;
+    padding:2%;
+}
+nav a{
+    text-decoration:none;
+    color:black;
+    display:inline-block;
+    width:25%;
+    padding:auto 0;
+    margin:1%;
+    border-radius: 10px;
+    min-height: 100%;
+}
+.Plan{
+    background-color:#FF764E;
+}
+.Learn{
+    background-color:#5ED3EB;
+}
+.Get{
+    background-color:#FFCD69;
+}
+header{
+    margin:0 auto;
+}
+div{
+    display:inline-block;
+}
+div.image{
+    width:20%;
+}
+div.headerText{
+    width:70%;
+}
+.headerText h1{
+    font-size:4rem;
+    font-family:'Chelsea Market', cursive;
+}
+.circle{
+    border-radius: 50%;
+}
+.headerText p{
+    margin-top:5.5%;
+}
+.mainText{
+    background-color:#DDB9A3;
+}
+footer{
+    background-color: #F9E7DC;
+}
+span{
+    font-weight: bold;
+}
+.centered{
+    margin:0, auto;
+    text-align:center;
+    align-items:center;
+}
+p.centered{
+    display:block;
+    width:60%;
+    margin-left:20%;
+    margin-right:10%;
+}
+img.centered{
+    width:20%;
+}
+footer{
+    margin-top:15%;
+}
+.footer{
+    width: 100%;
+    background-image: url('/assets/footer_img.jpg');
+    height:30vh;
+    object-fit: cover;
+}
